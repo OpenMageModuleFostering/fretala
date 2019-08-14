@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<package>
+    <name>Fretala</name>
+    <version>1.0.0</version>
+    <stability>stable</stability>
+    <license uri="http://opensource.org/licenses/osl-3.0.php">Open Software License (OSL 3.0)</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>Integration with http://freta.la platform. Displays new shipping methods based on Freta.l&#xE1; platform.</summary>
+    <description>&lt;a href="http://freta.la"&gt; Freta.l&#xE1; &lt;/a&gt; is a freight platform with the objective of working with clients that reside on the same area of your store. The Magento module makes a connection with the platform &lt;a href="http://freta.la"&gt; Freta.l&#xE1; &lt;/a&gt; that checks if the client is quoting freight resides in the same location that your store, returns a value and a deadline for his client.&#xD;
+&#xD;
+&lt;a href="http://freta.la"&gt;Freta.l&#xE1;&lt;/a&gt; &#xE9; uma plataforma de fretes com o objetivo de trabalhar com clientes que residem a mesma regi&#xE3;o de sua loja. O m&#xF3;dulo Magento faz uma liga&#xE7;&#xE3;o com a plataforma &lt;a href="http://freta.la"&gt;Freta.l&#xE1;&lt;/a&gt; que verifica se o cliente que est&#xE1; cotando o frete reside na mesma localidade que sua loja, retorna um valor e um prazo para seu cliente.&#xD;
+&#xD;
+ENTREGUE MAIS R&#xC1;PIDO&#xD;
+&#xD;
+Com o Freta.l&#xE1;, voc&#xEA; pode oferecer ao cliente da sua regi&#xE3;o a op&#xE7;&#xE3;o de Entrega VIP Freta.l&#xE1;, com entrega no mesmo dia da compra! Nosso sistema calcula de forma inteligente os melhores pre&#xE7;os e dispara o chamado para nossos parceiros locais, que s&#xE3;o empresas de motofrete regulamentadas para exercer o transporte dos seus produtos.&#xD;
+&#xD;
+&#xD;
+ENVIE COM SEGURAN&#xC7;A&#xD;
+&#xD;
+Depois disso, ser&#xE1; enviado pelo nosso parceiro local um motoboy para realizar a entrega. N&#xF3;s garantimos a realiza&#xE7;&#xE3;o da miss&#xE3;o em at&#xE9; 4h ap&#xF3;s disparada a ordem de retirada, para pedidos at&#xE9; as 14h. E pensando na seguran&#xE7;a, nos responsabilizamos pelas suas entregas em caso de perdas, roubos e danos, ler condi&#xE7;&#xF5;es em nossos &lt;a href="http://freta.la/termos.html"&gt;Termos e Condi&#xE7;&#xF5;es&lt;/a&gt;.&#xD;
+&#xD;
+&#xD;
+</description>
+    <notes>Integration with the API Freta.l&#xE1;&#xD;
+&#xD;
+Makes a call to api and returns the value of freight and delivery time.</notes>
+    <authors><author><name>Uecommerce</name><user>uecommerceraf</user><email>rafael@uecommerce.com.br</email></author></authors>
+    <date>2014-09-19</date>
+    <time>23:32:01</time>
+    <contents><target name="magecommunity"><dir name="Uecommerce"><dir name="Fretala"><dir name="Block"><dir name="Adminhtml"><dir name="Sales"><dir name="Order"><dir name="View"><dir name="Tab"><dir name="Info"><file name="Fretala.php" hash="702bcb808e769796b4806cef34ceb2d8"/></dir></dir></dir></dir></dir></dir></dir><dir name="Helper"><file name="Data.php" hash="456d18cc5cdbe300f1b11898fdc7e815"/></dir><dir name="Model"><dir name="Api"><file name="Fretala.php" hash="220e2620f7564ba1eccd7263897836c6"/><file name="Fretela.php" hash="d7b6c884e251cd688584b822f8f4ca9d"/><file name="Teste.php" hash="e509d42790ed1eb77412289fcd810f24"/></dir><dir name="Carrier"><file name="Fretala.php" hash="321739ca594d30b9608182d83788a9f8"/></dir><file name="Observer.php" hash="1e26f1f9e4ecf3b47abce33f16fc3e1e"/><dir name="Resource"><dir name="Eav"><dir name="Mysql4"><file name="Setup.php" hash="39bf0ce47531545ab0b29ef2ef4eb7df"/></dir></dir></dir><dir name="Source"><file name="Environment.php" hash="da866886c0e94b77d752cfb8f27e9ec3"/><file name="Manualautomatic.php" hash="9783453bfe1660ded560033534237f4d"/></dir></dir><dir name="controllers"><dir name="Adminhtml"><file name="FretalaController.php" hash="ea9b6bcafaefcb37563c865f3c813bbd"/></dir></dir><dir name="etc"><file name="config.xml" hash="c44fb13b49bc435c5e17d73990838251"/><file name="system.xml" hash="ed90f124fbeb8ad62a7726ae12f97e8f"/></dir><dir name="sql"><dir name="fretala_setup"><file name="mysql4-install-1.0.0.php" hash="6526a3a052424c86eda0613096e7e75f"/></dir></dir></dir></dir></target><target name="magedesign"><dir name="adminhtml"><dir name="default"><dir name="default"><dir name="layout"><file name="fretala.xml" hash="2cb53c793083bb6e5797ebeb1ffcc7d7"/></dir><dir name="template"><dir name="fretala"><dir name="sales"><dir name="order"><dir name="view"><dir name="tab"><dir name="info"><file name="fretala.phtml" hash="597a31d2ac27fbffa22a852992ffaef3"/></dir><file name="info.phtml" hash="5bf557c0bcd3fc07aed72dc3b1ae46ba"/></dir></dir></dir></dir></dir></dir></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Fretala.xml" hash="dc5a741e0ca1edc2490711f09be59da0"/></dir></target><target name="magelocale"><dir><dir name="pt_BR"><file name="Fretala.csv" hash="20f6a6539a6e9ecf2be3baabd450906e"/></dir></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.1.0</min><max>6.0.0</max></php></required></dependencies>
+</package>
